@@ -8,7 +8,7 @@ The program RUAUMOKO is designed to produce a piece-wise time-history response o
 
 A Python script to convert .S2K file to Ruaumoko text input file was developed.
 
-The main obstacle with using RUAUMOKO is that it lacks a 3D interactive interface, since it is mainly a text-based software. The aim of developing this Python script is to allow structural engineers to develop a structural model in SAP2000 which can then be exported to RUAUMOKO for performing Non-Linear Time History Analysis (NLTHA). Unlike SAP2000 which is FEM-based, RUAUMOKO is CP-based, which has the advantage of having a lower computational load while carrying out analyses.
+The main obstacle with using RUAUMOKO is that it lacks a 3D interactive interface, since it is mainly a text-based software. The aim of developing this Python script is to allow structural engineers to develop a structural model in SAP2000 which can then be exported to RUAUMOKO for performing Non-Linear Time History Analysis (NLTHA). Unlike SAP2000 which is FEM-based, RUAUMOKO is CP-based which has the advantage of having a lower computational load while carrying out analyses.
 
 The Python script is currently capable of supporting "Frame", "Bracing", and "Spring" elements in SAP2000, since they have direct equivalents in RUAUMOKO. All other elements in SAP2000 that are not supported will still be converted into members in RUAUMOKO, although the modeler must manually specify the properties. Keep in mind that the main purpose of this script is to transfer the geometrical properties of nodes and elements to compensate for the lack of 3D interface of RUAUMOKO rather than to have a complete conversion process.
 
