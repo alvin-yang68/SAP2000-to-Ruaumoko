@@ -15,5 +15,5 @@ The Python script is currently capable of supporting "Frame", "Bracing", and "Sp
 ## Steps to use
 
 1) Develop initial model in SAP2000 and export it in a .S2K file format
-2) Run *converter.py* and select the exported .S2K file via a pop-up dialog
+2) Run *converter.py* and select the exported .S2K file via a dialog box
 3) The converter will run and save the result in *output.txt*
